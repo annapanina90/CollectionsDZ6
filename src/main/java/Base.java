@@ -18,7 +18,7 @@ public class Base {
 
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanner = new Scanner( new File( "C:\\Users\\user\\IdeaProjects\\dz6\\src\\main\\resources\\Words.txt" ) );
+        Scanner scanner = new Scanner( new File( "C:\\Users\\user\\IdeaProjects\\CollectionsDZ6\\src\\main\\resources\\Words.txt" ) );
         // вычислить сколько раз слово встречается в файле и отсортировать по алфавиту
         Map<String, Integer> sorted = new TreeMap<>();
 
